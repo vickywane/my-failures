@@ -1,24 +1,8 @@
-# my-failures
+<h2 style={{textAlign : 'center'}} > Failures </h2>
 
-## Project setup
-```
-yarn install
-```
+## A simple Vue SPA to list failures and progresses.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Project setup
+`yarn install` and `yarn start` to run a local version of the app.
+ 
