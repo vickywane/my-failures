@@ -1,6 +1,6 @@
 <template>
 	<div id="form">
-		<input placeholder="Add a new failure" />
+		<Input placeholder="Add a new Failure" />
 
 		<button>Add Failure</button>
 	</div>
@@ -8,6 +8,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import { Input } from '../styled/styled-components'
 
 @Component
 export default class Form extends Vue {}
@@ -16,8 +17,7 @@ export default class Form extends Vue {}
 <style>
 #form {
 	padding: 0.7em;
-	width: 100%
-;	background-color: #000;
+	width: 100%;
 	color: #fff;
 }
 

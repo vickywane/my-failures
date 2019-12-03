@@ -1,5 +1,5 @@
 {
-  "name": "my-failures",
+  "name": "Failures-Vue-SPA",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,8 @@
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.3.0",
-    "vue-styled-components": "^1.4.14"
+    "vue-styled-components": "^1.4.14",
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

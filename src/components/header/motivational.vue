@@ -1,6 +1,6 @@
 <template>
 	<div id="home">
-		<a href="/">Failures</a>
+		<p> You gotta get up n go </p>
 	</div>
 </template>
 
@@ -8,20 +8,17 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class Header extends Vue {}
+export default class Motivational extends Vue {}
 </script>
 
 <style>
 #home {
-	padding: 0.7em;
-	width: 100%;
-	background-color: #000;
+	padding: 0.5em;
 	color: #fff;
 }
 
-a {
-	padding-left: 15px;
+p {
+	text-align: center;
 	color: #fff;
-	font-weight : 22px;
 }
 </style>
