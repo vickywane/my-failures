@@ -11,7 +11,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 export default class Banner extends Vue {}
 </script>
 
-<style>
+<style scoped >
 #home {
 	padding: 2em;
 	width: 100%;

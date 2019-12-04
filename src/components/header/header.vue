@@ -23,12 +23,11 @@ import Motivational from './motivational.vue'
 export default class Header extends Vue {}
 </script>
 
-<style>
+<style scoped >
 #home {
 	padding: 0.7em;
 	width: 100%;
 	background-color: #000;
-	color: #fff;
 }
 
 a {

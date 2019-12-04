@@ -16,7 +16,7 @@ import List from './list.vue'
 export default class Failures extends Vue {}
 </script>
 
-<style>
+<style scoped >
 #apps {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

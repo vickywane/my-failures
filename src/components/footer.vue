@@ -11,7 +11,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 export default class Footer extends Vue {}
 </script>
 
-<style>
+<style scoped >
 #footer {
 	padding: 0.7em;
 	width: 100%;

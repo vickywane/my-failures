@@ -14,7 +14,7 @@ import { Input } from '../styled/styled-components'
 export default class Form extends Vue {}
 </script>
 
-<style>
+<style scoped >
 #form {
 	padding: 0.7em;
 	width: 100%;
