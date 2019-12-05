@@ -1,6 +1,6 @@
 <template>
 	<div id="home">
-		<p> You gotta get up n go </p>
+		<h2> You gotta get up n go </h2>
 	</div>
 </template>
 
@@ -11,14 +11,15 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 export default class Motivational extends Vue {}
 </script>
 
-<style>
+<style scoped >
 #home {
-	padding: 0.5em;
+	padding: 0.2em;
 	color: #fff;
 }
 
-p {
+h2 {
 	text-align: center;
 	color: #fff;
+	font-weight : normal;
 }
 </style>

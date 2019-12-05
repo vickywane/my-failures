@@ -2,12 +2,12 @@ const state = {
 	failures: [
 	{	id: 1,
 		name: "Failed Jamb",
-		retries: 0
+		retries: 1
 	}  ,
 
 	{	id: 2,
 		name: "Failed Jamb",
-		retries: 0
+		retries: 2
 	}  ,  
 ] 
 }
