@@ -1,11 +1,11 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import failure from "./modules/failure";
+import { Failure } from './modules'
 
 Vue.use(Vuex);
 
-export default new Vuex.store({
+export default new Vuex.Store({
 	modules: {
-		failure
+		Failure
 	}
 });

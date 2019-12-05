@@ -3,8 +3,14 @@ const state = {
 	{	id: 1,
 		name: "Failed Jamb",
 		retries: 0
-	} 
-] ;
+	}  ,
+
+	{	id: 2,
+		name: "Failed Jamb",
+		retries: 0
+	}  ,  
+] 
+}
 
 const getters = {
 	allFailures: state => state.failures
