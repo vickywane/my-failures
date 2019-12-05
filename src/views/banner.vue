@@ -13,7 +13,7 @@ export default class Banner extends Vue {}
 
 <style scoped >
 #home {
-	padding: 2em;
+	padding: 1em;
 	width: 100%;
 	background-color: #000;
 	color: #fff;

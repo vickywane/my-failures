@@ -1,6 +1,10 @@
 <template>
 	<div id="footer">
-		<p>Failures Footer</p>
+		<p>Failures </p>
+
+		<a> Privacy </a> 
+		<a> Privacy </a> 
+		<a> Privacy </a> 
 	</div>
 </template>
 
